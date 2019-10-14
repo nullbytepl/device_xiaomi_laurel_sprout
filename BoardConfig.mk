@@ -169,5 +169,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 
+# Vendor init
+TARGET_INIT_VENDOR_LIB := libinit_laurel_sprout
+TARGET_RECOVERY_DEVICE_MODULES := libinit_laurel_sprout
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/laurel_sprout/BoardConfigVendor.mk
