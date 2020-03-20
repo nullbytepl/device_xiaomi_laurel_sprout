@@ -184,10 +184,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/placeholder:system/etc/placeholder
 
-# Power
-PRODUCT_PACKAGES += \
-    power.qcom:64
-
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     device/xiaomi/laurel_sprout
