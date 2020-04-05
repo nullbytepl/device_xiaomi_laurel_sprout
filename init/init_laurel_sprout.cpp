@@ -57,7 +57,7 @@ void property_override_dual(char const system_prop[], char const vendor_prop[], 
 
 void vendor_load_properties()
 {
-	property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ1B.200105.004/6031802:user/release-keys");
+	property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ2A.200305.003/6156912:user/release-keys");
 	property_override_dual("ro.control_privapp_permissions", "ro.control_privapp_permissions", "log");
 	property_override("ro.oem_unlock_supported", "0");
 
